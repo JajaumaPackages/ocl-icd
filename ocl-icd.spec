@@ -1,6 +1,6 @@
 Name:           ocl-icd
 Version:        2.2.9
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        OpenCL ICD loader
 
 License:        BSD
@@ -79,5 +79,8 @@ make check
 
 
 %changelog
+* Thu Dec 01 2016 Jajauma's Packages <jajauma@yandex.ru> - 2.2.9-3
+- Rebuild for altarch
+
 * Sun Nov 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 2.2.9-2
 - Initial release
